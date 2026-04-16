@@ -1,6 +1,6 @@
-# 🌸 Generative Models & Multimodal Learning Project
+# Generative Models & Multimodal Learning Project
 
-## 📌 Problem Statement
+## Problem Statement
 This project explores modern generative AI techniques across images and text, focusing on:
 
 - Understanding and analyzing a real-world dataset (**Oxford Flowers**)
@@ -15,7 +15,7 @@ The goal is to bridge:
   
 ## 📂 Dataset
 
-### 🌼 Oxford 102 Flowers Dataset
+### Oxford 102 Flowers Dataset
 - **Total Images:** 1020 (train split)  
 - **Classes:** 102 flower categories  
 - **Average Resolution:** ~629 × 531 px  
@@ -23,7 +23,7 @@ The goal is to bridge:
 - **Height Range:** 500 – 930 px  
 - **Aspect Ratio (avg):** 1.21  
 
-### 🎨 Pixel Statistics
+### Pixel Statistics
 - **Mean (RGB):**
   - R: 0.423  
   - G: 0.375  
@@ -33,12 +33,12 @@ The goal is to bridge:
   - G: 0.112  
   - B: 0.129  
 
-### 📝 Text Descriptions
+### Text Descriptions
 - **Total descriptions:** 102  
 - **Avg length:** ~12.5 words  
 - Used to create text prompts for diffusion training  
 
-## ⚙️ Methodology
+## Methodology
 
 The project is divided into **6 tasks**, each targeting a different concept:
 
@@ -121,7 +121,7 @@ Performed deep **EDA** on the dataset:
   - Noise (Generator)  
   - Image features (Discriminator)  
 
-## 📊 Results
+## Results
 
 ### 🔹 Task 3 (LoRA Fine-tuning)
 - Training completed in ~4.3 minutes  
@@ -144,14 +144,10 @@ Performed deep **EDA** on the dataset:
 - Clear separation between Circle, Square, Triangle  
 - Losses converge, visual quality improves across epochs  
 
-## 📁 Outputs
-- **Task 3**  
-- **Task 4**  
-- **Task 5:**   
-- **Task 6:**  
----
+## Outputs
+**check folders of each task**
 
-## 🚀 Key Takeaways
+## Key Takeaways
 - **LoRA** enables efficient fine-tuning of massive diffusion models  
 - **Text + Image alignment (CLIP)** is crucial for generative tasks  
 - **EDA** is essential before training generative models  
